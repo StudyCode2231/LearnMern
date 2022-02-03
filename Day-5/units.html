@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            font-size: 35px;
+
+        }
+        .box{
+            background-color: lightcoral;
+            margin: 10px;
+        }
+        .px{
+            width: 200px;
+        }
+        .vw{
+            width: 10vw;
+
+        }
+        .em{
+            width: 10em;
+
+        }
+        .ems li{
+            font-size: 1.5em;
+        }
+        .rems li{
+            font-size: 1.5rem; 
+            /* 1.5*16px=24px */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box px">I am 200px</div>
+        <div class="box vw">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores eum eius saepe corporis pariatur molestias totam nihil optio recusandae aut.</div>
+        <div class="parent">
+            <div class="boc em">i am em</div>
+        </div>
+        <div class="box rem">i am rem</div>    
+    </div>
+    <!-- Different between rem and em -->
+    <ul class="ems">
+        <!-- 1.5*16=24px -->
+        <li>One</li>
+        <li>Two</li> 
+        <li>Three
+            <!-- 1.5*16=24px *1.5=36px -->
+            <ul>
+                <li>Three a</li>
+                <li>Three b
+                    <!-- 1.5*16=24px *1.5=36px*1.5=54px -->
+                    <ul>
+                        <li>Three b a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
