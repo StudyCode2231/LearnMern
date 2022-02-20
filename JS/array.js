@@ -70,3 +70,4 @@ console.log(array2d[0].length) // number of columns in a 2d array
 array2d[1][1] = false;
 console.table(array2d);
 //directory
+console.log("10"*3);
