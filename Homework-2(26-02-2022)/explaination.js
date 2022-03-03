@@ -98,9 +98,9 @@
 // fruits.splice(1, 3,"Grapes","Pear","Watermelon","Muskmelon","Kiwi");
 // fruits.unshift("0th");
 // console.log(fruits);
-// start  
-// count
-// replace  
+// // start  
+// // count
+// // replace  
 
 // Which of the following will modify the person object?
 // const person = {
@@ -327,7 +327,7 @@
 // numbers[10] = 11;
 // console.log(numbers);
 
-var num = 8;
-var num = 10;
+// var num = 8;
+// var num = 10;
 
-console.log(num);
+// console.log(num);
