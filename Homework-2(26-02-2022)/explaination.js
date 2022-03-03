@@ -327,7 +327,7 @@
 // numbers[10] = 11;
 // console.log(numbers);
 
-// var num = 8;
-// var num = 10;
+var num = 8;
+var num = 10;
 
-// console.log(num);
+console.log(num);
