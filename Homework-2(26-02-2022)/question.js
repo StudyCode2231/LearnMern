@@ -89,13 +89,13 @@
 // D: 2 4 and 3 Error
 
 // // < --------------Question 7----------------->
-// for this question google what Object.freeze does 
-const person = {
-  name: 'Lydia Hallie',
-  address: {
-    street: '100 Main St',
-  },
-};
+// // for this question google what Object.freeze does 
+// const person = {
+//   name: 'Lydia Hallie',
+//   address: {
+//     street: '100 Main St',
+//   },
+// };
 
 // Object.freeze(person);
 
