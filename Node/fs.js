@@ -1,5 +1,6 @@
 // fs-> file system module -> it helps us to make files/folders append data in them , delete data , read data 
 const fs = require("fs");//require("path_of_the_file");
+const { ReadableByteStreamController } = require("stream/web");
 // const f1 = require("./f1.txt");
 const abc = require("../JS/temp");
 console.log(abc);
@@ -16,3 +17,5 @@ console.log(data+"");
 
 // let data = fs.readFileSync("f1.txt", "utf-8");
 // console.log(data);
+ReadableByteStreamController
+console.log(frames);
