@@ -2,8 +2,8 @@
 let helpFunc = require("./commands/help");
 // console.log(helpFunc.ghoda());
 let inputArr = process.argv.slice(2);
-let command = inputArr[0];
-let path = inputArr[1];
+let command = inputArr[0];//tree
+let path = inputArr[1];//path of file 
 switch (command) { //organizee
     case "tree":
         //call tree function
