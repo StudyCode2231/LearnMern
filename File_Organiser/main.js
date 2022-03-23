@@ -1,4 +1,5 @@
 // entry point of my command line 
+//extra comment
 let helpFunc = require("./commands/help");
 let orgFunc = require("./commands/organize");
 let treeFunc = require("./commands/tree");
