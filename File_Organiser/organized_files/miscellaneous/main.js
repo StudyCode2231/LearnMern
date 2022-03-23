@@ -7,7 +7,6 @@ let inputArr = process.argv.slice(2);
 // console.log(inputArr);
 let command = inputArr[0];
 let path = inputArr[1];
-// console.log(inputArr[1]);
 switch (command) { //organizee
     case "tree":
         //call tree function

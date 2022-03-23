@@ -9,6 +9,7 @@ function treeFn(dirPath) {
   }
   let doesExist = fs.existsSync(dirPath);
   if (doesExist == true) {
+    console.log(dirPath);
     treeHelper(dirPath, " ");
   }
 }
