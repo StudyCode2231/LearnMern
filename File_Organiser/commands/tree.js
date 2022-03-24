@@ -9,7 +9,6 @@ function treeFn(dirPath) {
   }
   let doesExist = fs.existsSync(dirPath);
   if (doesExist == true) {
-    console.log(dirPath);
     treeHelper(dirPath, " ");
   }
 }
@@ -36,6 +35,5 @@ function treeHelper(targetPath, indent) {
 module.exports = {
   tree: treeFn,
 };
-
 // let srcPath="/Users/abhishekgoel/Desktop/Desktop/AbhishekGoel/FJP5/Node/"
 // treeFn(srcPath);
